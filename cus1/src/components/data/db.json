@@ -1,38 +1,84 @@
 {
-  "books": [
+  "bills": [
     {
-      "id": "1",
-      "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
-      "category": {
+      "id": "BO-2678",
+      "product": {
         "id": "1",
-        "name": "Văn học",
-        "description": "Sách về kỹ năng sống"
+        "name": "Ip 15proMax",
+        "price": 100,
+        "typeProduct": "Điện Thoại"
       },
       "dateAdded": "01/06/2023",
-      "quantity": 10
+      "quantity": 10,
+      "price": 100
     },
     {
-      "id": "2",
-      "title": "Người Trong Muôn Nghề",
-      "category": {
+      "id": "BO-2839",
+      "product": {
         "id": "2",
-        "name": "Kỹ năng sống",
-        "description": "Các tác phẩm văn học"
+        "name": "LG 376",
+        "price": 200,
+        "typeProduct": "Tivi"
       },
       "dateAdded": "15/06/2023",
-      "quantity": 5
+      "quantity": 5,
+      "price": 200
+    },
+    {
+      "id": "BO-6969",
+      "product": {
+        "id": "3",
+        "name": "Asus 360",
+        "price": 300,
+        "typeProduct": "Màn Hình"
+      },
+      "dateAdded": "2024-07-17",
+      "quantity": 7,
+      "price": 300
+    },
+    {
+      "id": "BO-6239",
+      "product": {
+        "id": "4",
+        "name": "G903",
+        "price": 400,
+        "typeProduct": "Tai Nghe"
+      },
+      "dateAdded": "2024-07-29",
+      "quantity": 12,
+      "price": 400
     }
   ],
-  "categories": [
+  "products": [
     {
       "id": "1",
-      "name": "Văn học",
-      "description": "Các tác phẩm văn học"
+      "name": "Ip 15proMax",
+      "price": 100,
+      "typeProduct": "Điện Thoại"
     },
     {
       "id": "2",
-      "name": "Kỹ năng sống",
-      "description": "Sách về kỹ năng sống"
+      "name": "LG 376",
+      "price": 200,
+      "typeProduct": "Tivi"
+    },
+    {
+      "id": "3",
+      "name": "Asus 360",
+      "price": 300,
+      "typeProduct": "Màn Hình"
+    },
+    {
+      "id": "4",
+      "name": "G903",
+      "price": 400,
+      "typeProduct": "Tai Nghe"
+    },
+    {
+      "id": "5",
+      "name": "G911",
+      "price": 500,
+      "typeProduct": "Bàn Phím"
     }
   ]
 }
